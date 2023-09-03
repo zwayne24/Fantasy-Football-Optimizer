@@ -1,6 +1,6 @@
 # Fantasy Football Optimizer
 
-![alt text](https://ibb.co/0DyPgW5)
+![alt text](https://i.ibb.co/bW5pSyt/Football-Matrix.png)
 
 This project is a fantasy football optimizer. It projects what caliber of players will be available 
 at each of your picks, then finds the optimal way to fill your roster to maximize your projected points.
