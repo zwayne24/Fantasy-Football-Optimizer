@@ -1,6 +1,6 @@
 # Fantasy Football Optimizer
 
-![alt text](https://www.dropbox.com/scl/fi/218vbs0amdnhvwp42ygx4/football-Dall-e.png?rlkey=eckao6oauv6fdvn9ft8fbljx3&dl=0)
+![alt text](https://www.dropbox.com/home?preview=football-Dall-e.png)
 
 This project is a fantasy football optimizer. It projects what caliber of players will be available 
 at each of your picks, then finds the optimal way to fill your roster to maximize your projected points.
