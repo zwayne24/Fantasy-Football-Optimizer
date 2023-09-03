@@ -15,11 +15,11 @@ it tells you who you should pick.
 
 It uses python 3 and the following packages:
 
-*pandas 
-*pulp 
-*tkinter
-*scipy
-*matplotlib
+* pandas 
+* pulp 
+* tkinter
+* scipy
+* matplotlib
 
 ## Usage
 
