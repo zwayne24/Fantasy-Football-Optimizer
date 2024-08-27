@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#teams {
+    margin-top: 10px;
+}
+
+#team-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden; /* Prevents overflow */
+}
+
+#team-list li {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #444;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1; /* Flexibly grow and shrink with the container */
+    text-align: center;
+    font-size: .8vw; /* Adjust font size relative to the viewport width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#team-list li.active {
+    background-color: #7b00ff;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#draft-room {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#draft-board {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 20%;
+}
+
+#players-list {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    margin-right: 25px;
+}
+
+#players-list li.active {
+    background-color: #7b00ff;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+#button-container {
+    position: relative;
+    display: inline-block;
+}
+
+#launch-btn,
+#connect-btn,
+#optimize-btn {
+    display: inline-block;
+    margin-left: 5px; /* Adjust as needed */
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: .9em;
+}
+
+#launch-btn:hover,
+#connect-btn:hover,
+#optimize-btn:hover {
+    background-color: #7b00ff;
+    color: white;
+}
+
+#flash-message-Sleeper {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #D6B4F6; 
+    font-weight: bold; 
+}
+
+#flash-message-ESPN {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #D6B4F6; 
+    font-weight: bold; 
+}
+
+#players-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#Recommendation {
+    color: #7b00ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold; 
+    font-size: 1.1em;
+    margin-top: 3px;
+}
+
+#tabs {
+    display: flex;
+}
+
+#header-links {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+}
+
+#header-links a {
+    color: white;
+    text-decoration: underline;
+}
+
+#team-select {
+    color: black;
+    width: 100%;
+    font-size: 1.4em;
+    background-color: #f5f5f5;
+    border: none;
+    border-bottom: 2px solid #7b00ff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.vorp {
+    float: right;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.adp {
+    float: right;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.tab-link {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-link.active {
+    background-color: #7b00ff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
